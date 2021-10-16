@@ -18,23 +18,30 @@ public class App
         Vehiculo = entrada.readLine().toLowerCase();
 
         if (Vehiculo.equals("1") || Vehiculo.equals("Ford")) {
+            System.out.println("\n------------ FORD FOCUS -------------");
             CF = new FordFocusFactory();
 
             MT = CF.crearMotor();
             System.out.println(MT.presentaMT());
             CR = CF.crearCarroceria();
             System.out.println(CR.presentaCR());
+
+            System.out.println("\n------------------------------------");
         }
         else if (Vehiculo.equals("2") || Vehiculo.equals("Astra")) {
+            System.out.println("\n------------ ASTRA OPEL -------------");
             CF = new AstraOpelFactory();
 
             MT = CF.crearMotor();
             System.out.println(MT.presentaMT());
             CR = CF.crearCarroceria();
-            System.out.println(CR.getCarroceria());
+            System.out.println(CR.presentaCR());
+
+            System.out.println("\n------------------------------------");
         }
         else {
             System.out.println("Seleccion no valida, ejecute el programa nuevamente. \n\tFin del Programa.");
+            System.exit(0);
         }
 
     }

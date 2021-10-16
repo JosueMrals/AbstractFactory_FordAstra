@@ -3,7 +3,7 @@ package org.josue;
 public class AstraCarroceria extends Carroceria{
     @Override
     public String presentaCR() {
-        System.out.println("\n\tCarroceria del Astra Opel \n\tDescripcion:");
+        System.out.println("\n\tCarroceria \n\tDescripcion:");
 
         String CarroceriaAstra = "\t- Tipo de Carroceria: Turismo" +
                 "\n\t\t- Longitud: 4,37m" +

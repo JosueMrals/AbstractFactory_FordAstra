@@ -4,7 +4,7 @@ public class AstraMotor extends Motor{
 
     @Override
     public String presentaMT() {
-        System.out.println("\n \tMotor del Astra Opel \n \tDescripcion:");
+        System.out.println("\tMotor \n \tDescripcion:");
 
         String AstraMotor = "\t\t- Precio: $15,997 - $23,883" +
                 "\n\t\t- Comercializacion: 09/2015 - 10/2019" +
