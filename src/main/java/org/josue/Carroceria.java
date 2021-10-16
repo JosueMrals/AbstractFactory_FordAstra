@@ -4,6 +4,8 @@ public abstract class Carroceria {
 
     public abstract String presetaCR();
 
+    private String carroceria;
+
     public String getCarroceria() {
         return carroceria;
     }
@@ -12,6 +14,6 @@ public abstract class Carroceria {
         this.carroceria = carroceria;
     }
 
-    private String carroceria;
+
 
 }

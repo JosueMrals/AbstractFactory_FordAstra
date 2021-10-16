@@ -4,6 +4,8 @@ public abstract class Motor {
 
     public abstract String presentaMT();
 
+    private String motor;
+
     public String getMotor() {
         return motor;
     }
@@ -12,5 +14,4 @@ public abstract class Motor {
         this.motor = motor;
     }
 
-    private String motor;
 }
