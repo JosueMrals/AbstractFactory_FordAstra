@@ -2,7 +2,7 @@ package org.josue;
 
 public abstract class Carroceria {
 
-    public abstract String presetaCR();
+    public abstract String presentaCR();
 
     private String carroceria;
 
